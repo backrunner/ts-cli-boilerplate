@@ -10,7 +10,13 @@ Clone this boilerplate by git:
 git clone https://github.com/backrunner/ts-cli-boilerplate.git -b main --depth 1
 ```
 
-Then modify the properties in the `package.json`, like `name`, `homepage`, `repository`, and so on.
+And installing dependencies by npm:
+
+```bash
+npm install
+```
+
+After installing, modify the properties in the `package.json`, like `name`, `homepage`, `repository`, and so on.
 
 Finally using `npm run build` to build your project.
 
