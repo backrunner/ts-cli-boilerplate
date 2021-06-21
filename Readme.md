@@ -18,6 +18,8 @@ npm install
 
 After installing, modify the properties in the `package.json`, like `name`, `homepage`, `repository`, and so on.
 
+Also remember to modify the `Readme.md`.
+
 Finally using `npm run build` to build your project.
 
 ## Intergrated packages
