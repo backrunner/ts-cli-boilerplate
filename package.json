@@ -1,6 +1,6 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quickly staring a Typescript cli project",
   "main": "./bin/cli.js",
   "bin": {
