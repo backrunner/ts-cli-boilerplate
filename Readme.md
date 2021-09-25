@@ -22,6 +22,14 @@ Also remember to modify the `Readme.md`.
 
 Finally using `npm run build` to build your project.
 
+## CLI
+
+We created a command line interface tool called `create-typescript-cli`, you can use it to create your project faster.
+
+```bash
+npm create typescript-cli
+```
+
 ## Intergrated packages
 
 - Rollup (with babel, node-resolve, json plugins).
@@ -30,7 +38,7 @@ Finally using `npm run build` to build your project.
 
 - Commander.js, Inquirer.js, chalk.
 
-- f2elint (useful lint initializer from alibaba).
+- `eslint` with `eslint-config-alloy` and `prettier`.
 
 ## License
 
