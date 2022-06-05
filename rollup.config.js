@@ -4,7 +4,7 @@ import json from '@rollup/plugin-json';
 import fs from 'fs';
 
 const pkg = JSON.parse(fs.readFileSync('./package.json'));
-const external = Object.keys(pkg.dependencies || {}).concat(['fs/promises', 'mysql2/promise']);
+const external = Object.keys(pkg.dependencies || {}).concat(['fs/promises']);
 
 const extensions = ['.js', '.ts'];
 
