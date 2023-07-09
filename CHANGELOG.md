@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0
+
+- Feat: upgrade `commander` to `v11.0.0`.
+
+- Feat: upgrade `inquirer` to `v8.x`.
+
+- Chore: upgrade dependencies.
+
 ## v1.2.1
 
 - Chore: upgrade dependencies.
