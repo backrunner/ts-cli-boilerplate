@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0
+
+- Feat: upgrade dependencies.
+- Feat: build target now turns to ESM by default.
+- Feat: move `main.ts` to src folder.
+
 ## v1.3.0
 
 - Feat: upgrade `commander` to `v11.0.0`.
