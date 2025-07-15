@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.0.0
+
+- Breaking: upgrade eslint to v9 and switch to @antfu/eslint-config
+- Breaking: remove legacy eslint configurations (eslint-config-alloy, @typescript-eslint/*)
+- Feat: migrate to flat config format with eslint.config.js
+
 ## v2.0.0
 
 - Feat: upgrade dependencies.

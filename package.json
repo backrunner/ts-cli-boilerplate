@@ -1,6 +1,6 @@
 {
   "name": "ts-cli-boilerplate",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Quickly staring a Typescript cli project",
   "main": "./bin/cli.js",
   "module": "./bin/cli.mjs",
@@ -31,28 +31,24 @@
   },
   "homepage": "https://github.com/backrunner/ts-cli-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.26.10",
-    "@babel/eslint-parser": "^7.26.10",
-    "@babel/preset-env": "^7.26.9",
-    "@babel/preset-typescript": "^7.26.0",
+    "@antfu/eslint-config": "^4.17.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-typescript": "^12.1.2",
-    "@types/inquirer": "^8.2.10",
-    "@typescript-eslint/eslint-plugin": "^8.26.1",
-    "@typescript-eslint/parser": "^8.26.1",
-    "eslint": "^8.57.1",
-    "eslint-config-alloy": "^5.1.2",
-    "eslint-config-prettier": "^10.1.1",
-    "prettier": "^3.5.3",
-    "rollup": "^4.36.0",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/inquirer": "^8.2.11",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "rollup": "^4.45.0",
     "tslib": "^2.8.1",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
-    "inquirer": "^12.5.0"
+    "inquirer": "^12.7.0"
   }
 }
