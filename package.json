@@ -18,7 +18,7 @@
     "typescript",
     "cli"
   ],
-  "main": "./bin/cli.js",
+  "main": "./bin/cli.cjs",
   "module": "./bin/cli.mjs",
   "bin": {
     "[YOUR_CLI_BIN_NAME]": "./bin/cli.mjs"
@@ -27,8 +27,11 @@
     "bin"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -c --watch"
+    "build": "rollup -c rollup.config.ts --configPlugin typescript",
+    "watch": "rollup -c rollup.config.ts --configPlugin typescript --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:inspect": "npx @eslint/config-inspector"
   },
   "dependencies": {
     "chalk": "^5.4.1",
@@ -46,6 +49,7 @@
     "@rollup/plugin-typescript": "^12.1.4",
     "@types/inquirer": "^8.2.11",
     "eslint": "^9.31.0",
+    "eslint-plugin-format": "^1.0.1",
     "prettier": "^3.6.2",
     "rollup": "^4.45.0",
     "tslib": "^2.8.1",
